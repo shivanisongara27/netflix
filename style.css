@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./IN-en-20230320-popsignuptwoweeks-perspective_alpha_website_large\ \(1\).jpg);
+    
+    
+
+
+}
+.bar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+  
+    
+}
+.bar img{
+    width: 250px;
+    height: 100px;
+    margin-left: 80px;
+
+}
+.bar span button{
+    
+    width: 110px;
+    height: 25px;
+    background-color: transparent;
+     border: 1px solid white;
+     margin-right: 20px;
+     border-radius: 2px;
+     color: whitesmoke;
+     font-size: 20px;
+    
+
+}
+.bar span button:last-child{
+    width: 65px;
+    height: 25px;
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+}
+ .hero-section{
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    
+}
+.hero-section h1{
+    margin-top: 200px;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-section h2{
+   margin-top: 25px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section h6{
+    margin-top: 25px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero-section span{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hero-section span :first-child{ 
+    width: 300px;
+    height: 50px;
+ background-color: rgb(14, 14, 14);
+    color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    
+}
+.hero-section span :last-child{
+    margin-left: 20px;
+    width: 200px ;
+    height: 50px;
+    font-size: 25px;
+    color: whitesmoke;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    
+}
+hr{
+    background-color: rgb(40, 37, 37);
+    width:100%;
+    height: 10px;
+    border: none;
+}
+
+.EYT{
+background-color: black;
+   width: 100%;
+   height: 600px;
+   display: flex;
+
+}
+.text{
+    width: 50%;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text h1{
+    font-size: 55px;
+}
+.text p{
+
+    font-size: 28px;
+    margin-left: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+    
+.image{
+  width: 50%;
+  background-color:black ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.image img{
+    width:  400px;
+    height: 400px;
+}
+.offline{
+    background-color: black;
+   width: 100%;
+   height: 600px;
+   display: flex;
+
+}
+.mobile.img {
+    width: 70%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  
+    
+}
+.mobile.img img{
+    width:  400px;
+    height: 400px;
+
+}
+.mobile {
+    width: 30%;
+    margin-left: 20px;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mobile h1{
+    font-size: 50px;
+
+}
+.mobile p{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Watch{
+    background-color: black;
+   width: 100%;
+   height: 600px;
+   display: flex;
+
+}
+    
+.Wtext{
+    width: 50%;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Wtext h1{
+    font-size: 55px;
+}
+
+.Wtext p{
+    font-size: 28px;
+    margin-left: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.Wimg {
+    width: 70%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  
+
+}
+.Wimg img{
+    width:  400px;
+    height: 400px;
+
+
+}
+.children{
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    display: flex;
+ 
+
+}
+.Cimg{
+    width: 50%;
+  background-color: black ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.Cimg img{
+    width:  400px;
+    height: 400px;
+
+}
+.Ctext{
+    width: 50%;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Ctext h1 {
+    font-size: 55px;
+    
+}
+.Ctext p{
+    font-size: 28px;
+    margin-left: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.last{
+    width: 100vw;
+    height: 150vh;
+    background-color:black ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.last h1{
+    color: whitesmoke;
+    font-size: 60px;
+    margin-top: 10px;
+    
+}
+
+.last div{
+    width: 950px;
+    height: 70px;
+    background-color: rgb(36, 28, 28);
+    margin-top: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.last p{
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+.last span :first-child {
+    width: 350px;
+    height: 60px;
+    margin-top: 20px;
+    background-color: rgb(57, 53, 53);
+     border: 2px solid white;
+     border-radius: 2px;
+     color: whitesmoke;
+     font-size: 20px;
+
+}
+.last span :last-child{
+
+    width: 200px;
+    height: 60px;
+    margin-top: 20px;
+    background-color: red;
+    border: none;
+    color: whitesmoke;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
